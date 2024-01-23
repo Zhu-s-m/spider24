@@ -11,9 +11,9 @@ import pymysql
 
 class DbPipeline:
     def __init__(self):
-        self.conn = pymysql.connect(host='localhost',port=3306,
-                                    user='root', password='Zsm010228#',
-                                    database='spider', charset='utf8')
+        self.conn = pymysql.connect(host='', port='',
+                                    user='', password='',
+                                    database='', charset='')
         self.cursor = self.conn.cursor()
         self.data = []
 
